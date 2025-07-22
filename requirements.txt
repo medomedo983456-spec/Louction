@@ -1,0 +1,4 @@
+requests>=2.25.1
+phonenumbers>=8.12.20
+colorama>=0.4.4
+pyfiglet>=0.8.post1

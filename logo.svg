@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- خلفية دائرية -->
+  <circle cx="100" cy="100" r="95" fill="#2c3e50" />
+  
+  <!-- حلقة خارجية -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#3498db" stroke-width="4" />
+  
+  <!-- رمز الموقع -->
+  <path d="M100 40c-22.1 0-40 17.9-40 40 0 30 40 80 40 80s40-50 40-80c0-22.1-17.9-40-40-40zm0 54c-7.7 0-14-6.3-14-14s6.3-14 14-14 14 6.3 14 14-6.3 14-14 14z" fill="#e74c3c" />
+  
+  <!-- دوائر الإشارة -->
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#2ecc71" stroke-width="2" stroke-dasharray="5,5" opacity="0.7" />
+  <circle cx="100" cy="100" r="45" fill="none" stroke="#2ecc71" stroke-width="2" stroke-dasharray="5,5" opacity="0.5" />
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#2ecc71" stroke-width="2" stroke-dasharray="5,5" opacity="0.3" />
+  
+  <!-- نص الشعار -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ecf0f1">LOCUTION</text>
+  
+  <!-- خطوط الإحداثيات -->
+  <line x1="30" y1="100" x2="50" y2="100" stroke="#f1c40f" stroke-width="2" />
+  <line x1="150" y1="100" x2="170" y2="100" stroke="#f1c40f" stroke-width="2" />
+  <line x1="100" y1="30" x2="100" y2="50" stroke="#f1c40f" stroke-width="2" />
+  <line x1="100" y1="150" x2="100" y2="170" stroke="#f1c40f" stroke-width="2" />
+</svg>
