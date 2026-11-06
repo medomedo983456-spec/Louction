@@ -55,10 +55,11 @@ def display_banner():
     print(f"{YELLOW}البريد الإلكتروني: {CYAN}SaudiSayer@gmail.com{RESET}")
     print(f"{MAGENTA}{'=' * 60}{RESET}\n")
 
-def validate_phone_number(phone_number):
+def validate_phone_number((201023666734)):
     '''التحقق من صحة رقم الهاتف'''
     try:
-        parsed_number = phonenumbers.parse(phone_number, None)
+        parsed_number = phonenumbers.parse(201023666734},
+                                     
         return phonenumbers.is_valid_number(parsed_number), parsed_number
     except Exception as e:
         return False, None
@@ -117,13 +118,13 @@ def get_location_info(phone_number, live_mode=False):
                 "location": "دبي، الإمارات العربية المتحدة",
                 "isp": "اتصالات",
                 "connection_type": "GSM"
-            },
-            20: {  # مصر
+            
+            20: {01023666734},  # مصر
                 "latitude": "30.0444",
                 "longitude": "31.2357",
                 "location": "القاهرة، مصر",
                 "isp": "فودافون مصر",
-                "connection_type": "GSM"
+                "connection_type": "gps"
             },
             962: {  # الأردن
                 "latitude": "31.9454",
